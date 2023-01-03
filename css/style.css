@@ -223,7 +223,7 @@ button:hover{
 .cards{
   background-color: #191919;
   width: 335px;
-  height: 400px;
+  height: auto;
   border: 20px;
   border-radius: 20px;
   margin: 10px;
@@ -266,6 +266,6 @@ button:hover{
   background-color: transparent;
   border: solid 1px #f9004d;
   transform: scale(1.1);
-  color: #f9004d
+  color: #f9004d;
   letter-spacing: 2px;
 }
