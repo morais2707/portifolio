@@ -132,23 +132,24 @@ h3{
 .background-color-sobre{
   background-color: #191919;
   width: 100%;
-  padding: 100px 0px;
+  padding: 90px 0px;
 }
 
 .background-color-sobre img{
-  width: 430px;
+  width: 40%;
   height: auto;
   border-radius: 50%;
 }
 
 .text-sobre{
-  width: 550px;
+  width: 50%;
 }
 
 .main-sobre{
   display: flex;
   align-items: center;
   justify-content: space-around;
+  gap: 20px;
   width: 1130px;
   margin: 0 auto;
 }
@@ -157,14 +158,14 @@ h3{
   color: #fff;
   font-size: 75px;
   text-transform: capitalize;
-  margin-bottom: 20px;
+  margin-bottom: 20px
 }
 
 .text-sobre h5{
   color: #fff;
   letter-spacing: 2px;
   font-size: 22px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   text-transform: capitalize;
 }
 
@@ -198,18 +199,19 @@ button:hover{
 /*Fim Main*/
 
 
+/*Início Serviços*/
 .container-servicos{
  background-color: #101010;
  width: 100%;
- padding: 100px 0px;  
+ margin: 0 auto;
+ padding: 90px 0px;
 }
 
 .title h2{
   color: #fff;
   font-size: 75px;
   text-align: center;
-  margin: 30px auto;
-  width: 1130px;
+  margin-bottom: 20px;
 }
 
 .caixa{
@@ -218,12 +220,12 @@ button:hover{
   align-items: center;
   min-height: 400px;
   flex-wrap: wrap;
+  gap: 30px;
 }
 
 .cards{
   background-color: #191919;
   width: 335px;
-  height: auto;
   border: 20px;
   border-radius: 20px;
   margin: 10px;
@@ -231,6 +233,20 @@ button:hover{
   overflow: hidden;
   text-align: center;
   padding: 0px 0px 20px 0px;
+  /*box-shadow: 5px 5px 8px rgba(249, 0, 77, 0.250);*/
+  box-shadow: 5px 5px 8px rgba(255, 255, 255, 0.250);
+  position: relative;
+
+}
+
+.cards::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: solid 25px transparent;
+  border-top: solid 25px #f9004d;
+  border-right: solid 25px #f9004d;
 }
 
 .cards i{
@@ -253,13 +269,15 @@ button:hover{
   font-size: 16px;
   line-height: 27px;
   margin-bottom: 25px;
-  padding: 0px 20px
+  padding: 0px 20px;
+  
 }
 
 .btn{
   border: none;
   transition: .5s;
   letter-spacing: 2px;
+  box-shadow: 4px 4px 8px rgba(255, 255, 255, 0.250);
 }
 
 .btn:hover{
@@ -269,3 +287,4 @@ button:hover{
   color: #f9004d;
   letter-spacing: 2px;
 }
+/*Fim Serviços*/
