@@ -5,6 +5,16 @@
   text-decoration: none;
 }
 
+@media (max-wihth: 200px){
+  .background-color-sobre{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+  }
+
+}
+
 body{
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -17,14 +27,23 @@ body{
   height: 100vh;
   width: 100%;
 }
+header{
+
+}
+
+
 /*Início Header*/
 nav{
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 45px;
-  padding-left: 8%;
-  padding-right: 8%;
+  justify-content: space-around;
+  /*padding: 45px;*/
+  /*padding-left: 8%;
+  padding-right:8%;*/
+  padding: 35px 25px 0px 35px;
+  position: fixed;
+  width: 100%;
+  top:0;
 }
 
 nav h2{
@@ -133,6 +152,8 @@ h3{
   background-color: #191919;
   width: 100%;
   padding: 90px 0px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .background-color-sobre img{
@@ -236,7 +257,6 @@ button:hover{
   /*box-shadow: 5px 5px 8px rgba(249, 0, 77, 0.250);*/
   box-shadow: 5px 5px 8px rgba(255, 255, 255, 0.250);
   position: relative;
-
 }
 
 .cards::before{
@@ -270,7 +290,6 @@ button:hover{
   line-height: 27px;
   margin-bottom: 25px;
   padding: 0px 20px;
-  
 }
 
 .btn{
