@@ -15,11 +15,11 @@ body{
   width: 100%;
 }
 
-
 header nav{
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
   padding: 15px 0px;
   position: fixed;
   width: 100%;
@@ -73,14 +73,13 @@ nav ul li a:hover{
 
 .btn-nav:hover{
   background-color: #fff;
-  color: #f9004d;
-  
+  color: #f9004d;  
 }
 /*Fim | background-header-main */
 
 
 
-/*Início Main*/
+/*Início continer-main*/
 .container-main{
   display: flex;
   align-items: center;
@@ -88,10 +87,6 @@ nav ul li a:hover{
   flex-wrap: wrap;
   width: 100%;  
   padding: 120px 0px;
-  /*position: absolute;*/
-  /*top: 50%;
-  left: 8%;
-  transform: translateY(-50);*/
 }
 
 .perfil h4{
@@ -117,31 +112,18 @@ h3{
   letter-spacing: 8px;
 }
 
-
-
 .img-main .foto{
   border-radius: 50%;
   box-shadow: 10px 10px 15px #f9004f50;
-
 }
 
-.perfil{
-
-}
-
-
-
-
-
-
-
-.container-btn form{
+.container-main .form{
   width: 380px;
   max-width: 100%;
   position: relative;
 }
 
-.container-btn form input:first-child{
+.container-main .form input:first-child{
   display: inline-block;
   width: 100%;
   padding: 14px 130px 14px 15px;
@@ -150,7 +132,7 @@ h3{
   border: none;
 }
 
-.container-btn form input:last-child{
+.container-main form input:last-child{
   position: absolute;
   display: inline-block;
   outline: none;
@@ -164,45 +146,33 @@ h3{
   top: 4px;
   cursor: pointer;
 }
+/*Fim continer-main*/
 
 
 
-
-
-
-
+/*Início container/ sobre mim*/
 .background-color-sobre{
   background-color: #191919;
-  width: 100%;
-  padding: 90px 0px;
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
+  padding: 120px 0px;
 }
 
-.background-color-sobre img{
-  width: 40%;
-  height: auto;
+.dv-img .img-sobre{
+  width: 60%;
   border-radius: 50%;
+  margin-left:10%;
 }
 
 .text-sobre{
-  width: 50%;
-}
-
-.main-sobre{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  gap: 20px;
-  width: 100%;
-  padding: 0px 35px 0px 35px;
+  margin-right: 10%;
 }
 
 .text-sobre h2{
   color: #fff;
   font-size: 75px;
   text-transform: capitalize;
-  margin-bottom: 20px
+  margin-bottom: 20px;
 }
 
 .text-sobre h5{
@@ -240,10 +210,10 @@ button:hover{
   cursor: pointer;
   font-weight: bold;
 }
-/*Fim Main*/
+/*Fim container/ sobre mim*/
 
 
-/*Início Serviços*/
+/*Início container/ Serviços*/
 .container-servicos{
  background-color: #101010;
  width: 100%;
@@ -269,7 +239,7 @@ button:hover{
 
 .cards{
   background-color: #191919;
-  width: 335px;
+  width: 40%;
   border: 20px;
   border-radius: 20px;
   margin: 10px;
@@ -329,6 +299,79 @@ button:hover{
   color: #f9004d;
   letter-spacing: 2px;
 }
-/*Fim Serviços*/
+/*Fim container/ Serviços*/
+
+
+.me-contate{
+  width: 100%;
+  height: 240px;
+  background-color: #191919;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.me-contate p{
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+footer{
+  background-color: #101010;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+footer h6{
+  font-size: 35px;
+  color: #fff;
+}
+
+footer p{
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 25px;
+}
+
+.redes-sociais{
+  display: flex;
+}
+
+.redes-sociais a{
+  background-color: #f9004d;
+  padding: 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 20px 10px;
+  text-decoration: none;
+  transition: 1s;
+}
+
+.redes-sociais a:hover{
+  transform: scale(1.2);
+}
+
+.end p{
+  color: #f9004d;
+  font-size: 20px;
+  margin-top: 30px;
+}
 
 

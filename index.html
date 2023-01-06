@@ -1,138 +1,191 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/style.css">
   <script>alert("Página em construção!");</script>
   <title>PORTIFÓLIO</title>
 </head>
+
 <body>
 
+  <!--INÍCIO CONTAINER / HEADER-->
+  <div class="background-header-main">
 
-      <div class="background-header-main">
+    <header>
+      <nav>
+        <h2>Portifó<span>lio</span></h2>
+        <ul class="cabecalho-link">
+          <li><a href="#">Início</a></li>
+          <li><a href="#suave">Sobre mim</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#">Habilidades</a></li>
+          <li><a href="https://linktr.ee/jorgeluis_santosmorais" target="_blank">
+              Contato</a></li>
+        </ul><!--cabecalho-link-->
+        <a href="#" class="btn-nav">Subscreve</a>
+      </nav>
 
-        <header>
-          <nav>
-              <h2>Portifó<span>lio</span></h2>
-              <ul class="cabecalho-link">
-                  <li><a href="#">Início</a></li>
-                  <li><a href="#suave">Sobre mim</a></li>
-                  <li><a href="#servicos">Serviços</a></li>
-                  <li><a href="#">Habilidades</a></li>
-                  <li><a href="https://api.whatsapp.com/send?phone=5586995881666&text=Ol%C3%A1,%20tudo%20bem!%0ASeja%20bem-vindo,%20deixe%20sua%20mensagem%20e%20assim%20que%20puder%20responderei." target="_blank">
-                    Contato</a></li>
-              </ul><!--cabecalho-link-->
-                  <a href="#" class="btn-nav" >Subscreve</a>
-          </nav>    
-
-        </header><!--header-->
-      
-
-        
-      <div class="container-main">
-
-        <div class="perfil">
-          <h4>Olá, meu nome é,</h4>
-          <h1>Jorge<span>Luís</span></h1>
-          <h3>analista sistema</h3>        
-              <form>
-                  <input type="email" name="email" id="mail" placeholder="Envie seu e-mail">
-                  <input type="submit" name="submit" value="Começar">
-              </form><!--form-->
-        </div><!--perfil-->  
-
-        <div class="img-main">
-            <img class="foto" src="img/0101-perfil.png" alt="">
-        </div><!--img-main-->
-
-      </div><!--container-main-->
+    </header><!--header-->
+    <!--FIM CONTAINER / HEADER-->
 
 
+    <!--INÍCIO CONTAINER / MAIN-->
+    <div class="container-main">
+
+      <div class="perfil">
+        <h4>Olá, meu nome é,</h4>
+        <h1>Jorge<span>Luís</span></h1>
+        <h3>analista de sistema</h3>
+        <form class="form">
+          <input type="email" name="email" id="mail" placeholder="Envie seu e-mail">
+          <input type="submit" name="submit" value="Começar">
+        </form><!--form-->
+      </div><!--perfil-->
+
+      <div class="img-main">
+        <img class="foto" src="img/0101-perfil.png" alt="">
+      </div><!--img-main-->
+
+    </div><!--container-main-->
+    <!--FIM CONTAINER / MAIN-->
+
+  </div><!--background-header-main-->
 
 
+  <!--INÍCIO CONTAINER / SOBRE MIM-->
+  <div class="background-color-sobre" id="suave">
+
+    <div class="dv-img">
+      <img class="img-sobre" src="img/jorge-removebg.png" alt="">
+    </div><!--dv-img-->
+
+    <div class="text-sobre">
+      <h2>Sobre Mim</h2>
+      <h5>Eletrônico<span> & TI</span></h5>
+      <p>Graduado em eletrônica pela escola técnica ferderal do Piauí- ETEFPI, também graduado em
+        sistemas de informação, pós-graduado em gestão de segurança pública e privada e
+        atualemnte estudante em Docência do ensino superior.</p>
+      <button>Vamos converçar</button>
+    </div><!--text-sobre-->
+
+  </div><!--background-color-sobre-->
+  <!--FIM CONTAINER / SOBRE MIM-->
 
 
-
-      </div><!--background-header-main-->
-
-      <section class="background-color-sobre" id="suave">
-        <div class="main-sobre">
-          <img src="img/jorge-removebg.png" alt="">
-          <div class="text-sobre">
-            <h2>Sobre Mim</h2>
-            <h5>Eletrônico<span> & TI</span></h5>
-            <p>Graduado em eletrônica pela escola técnica ferderal do Piauí- ETEFPI, também graduado em
-               sistemas de informação, pós-graduado em gestão de segurança pública e privada e
-               atualemnte estudante em Docência do ensino superior.</p>
-               <button>Vamos converçar</button>
-          </div>
-        </div>
-      </section><!--background-color-sobre-->
-
-
-      <!--INÍCIO CARD / NOSSOS SERVIÇOS-->
-      <div class="container-servicos" id="servicos">
-        <div class="title">
-            <h2>Nossos Serviços</h2>
-        </div>
-        <div class="caixa">
-          <div class="cards">
-              <i class="fa fa-laptop"></i>
-            <div class="content">
-                  <h5>Reparo em Laptops</h5>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Explicabo quos voluptatum possimus, esse perferendis
-                    officia excepturi non facilis, eaque eos ullam quod?
-                    Quas harum suscipit laborum fugiat praesentium autem minima!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Explicabo quos voluptatum possimus, esse perferendis
-                    officia excepturi non facilis, eaque eos ullam quod?
-                    Quas harum suscipit laborum fugiat praesentium autem minima!</p>
-            </div><!--content-->
-                <button class="btn">Saiba mais</button>
-          </div><!--cards-->
-
-          <div class="cards">
-            <i class=" fa fa-camera"></i>
-          <div class="content">
-                <h5>Segurança Eletrônica</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Explicabo quos voluptatum possimus, esse perferendis
-                  officia excepturi non facilis, eaque eos ullam quod?
-                  Quas harum suscipit laborum fugiat praesentium autem minima!
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Explicabo quos voluptatum possimus, esse perferendis
-                  officia excepturi non facilis, eaque eos ullam quod?
-                  Quas harum suscipit laborum fugiat praesentium autem minima!</p>
-          </div><!--content-->
-              <button class="btn">Saiba mais</button>
-        </div><!--cards-->
-
-        <div class="cards">
-          <i class="fa fa-sitemap"></i>
+  <!--INÍCIO CARD / NOSSOS SERVIÇOS-->
+  <div class="container-servicos" id="servicos">
+    <div class="title">
+      <h2>Nossos Serviços</h2>
+    </div>
+    <div class="caixa">
+      <div class="cards">
+        <i class="fa fa-laptop"></i>
         <div class="content">
-              <h5>Informatica para 3ª idade</h5>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo quos voluptatum possimus, esse perferendis
-                officia excepturi non facilis, eaque eos ullam quod?
-                Quas harum suscipit laborum fugiat praesentium autem minima!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo quos voluptatum possimus, esse perferendis
-                officia excepturi non facilis, eaque eos ullam quod?
-                Quas harum suscipit laborum fugiat praesentium autem minima!</p>
+          <h5>Reparo em Laptops</h5>
+          <p>Um procedimento corriqueiro em lojas de informática em geral, especialmente naquelas que prestam
+            assistência ou manutenção em computadores é muito simples:
+            O cliente chega com um computador que não inicia e não dá sinal algum. A máquina é recebida e um técnico
+            começa a substituir as diferentes partes que compõem o sistema, uma a uma, até que o PC volte a funcionar.
+            Quando trata-se de uma fonte ou memória, informa-se ao cliente o dano e oferecem-se peças novas. O custo é
+            relativamente baixo. Entretanto, quando o problema é em uma placa-mãe, o custo pode elevar-se em muito,
+            especialmente tratando-se de placas relativamente antigas, que substituídas por outras novas e bem mais
+            modernas sucateiam os componentes do "sistema antigo" por completo, praticamente obrigando o usuário a fazer
+            um "upgrade forçado". Tanto pior se tratar-se de um Laptop, pois o custo de uma nova placa-mãe é caríssimo.
+            Nosso trabalho se diferencia justamente neste ponto. Podemos efetuar o reparo da placa-mãe, de forma que o
+            cliente possa ter seu PC funcionando novamente a um custo muito inferior ao de um upgrade.
+            Temos recursos, dominamos tecnologia altamente especializada e estamos aptos a consertar sua placa-mãe, para
+            que ela volte a funcionar normalmente.
+            Para placas-mãe de Desktops, trabalhamos com preços fixos para a imensa maioria dos defeitos conforme o
+            modelo da placa-mãe.
+            Os reparos mais complexos são devidamente orçados e comunicados ao cliente; não cobramos taxas por
+            orçamentos rejeitados, exceto nos casos em que a placa não apresente defeito algum.
+            Notebooks sempre resultam em orçamentos.
+            É um conceito inovador em matéria de reparos em computadores, e se você está pensando em sucatear seu
+            computador porque lhe disseram que este não funciona mais, entre em contato conosco.
+            Nós podemos apresentar soluções para seu problema.</p>
         </div><!--content-->
-            <button class="btn">Saiba mais</button>
+        <button class="btn">Saiba mais</button>
       </div><!--cards-->
-        </div><!--caixa-->       
-      </div><!--container-serviços-->
-      <!--FIM CARD / NOSSOS SERVIÇOS-->
+
+      <div class="cards">
+        <i class=" fa fa-camera"></i>
+        <div class="content">
+          <h5>Segurança Eletrônica</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Explicabo quos voluptatum possimus, esse perferendis
+            officia excepturi non facilis, eaque eos ullam quod?
+            Quas harum suscipit laborum fugiat praesentium autem minima!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Explicabo quos voluptatum possimus, esse perferendis
+            officia excepturi non facilis, eaque eos ullam quod?
+            Quas harum suscipit laborum fugiat praesentium autem minima!</p>
+        </div><!--content-->
+        <button class="btn">Saiba mais</button>
+      </div><!--cards-->
+
+      <div class="cards">
+        <i class="fa fa-sitemap"></i>
+        <div class="content">
+          <h5>Informatica para 3ª idade</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Explicabo quos voluptatum possimus, esse perferendis
+            officia excepturi non facilis, eaque eos ullam quod?
+            Quas harum suscipit laborum fugiat praesentium autem minima!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Explicabo quos voluptatum possimus, esse perferendis
+            officia excepturi non facilis, eaque eos ullam quod?
+            Quas harum suscipit laborum fugiat praesentium autem minima!</p>
+        </div><!--content-->
+        <button class="btn">Saiba mais</button>
+      </div><!--cards-->
+
+      <div class="cards">
+        <i class="fa fa-sitemap"></i>
+        <div class="content">
+          <h5>Informatica para 3ª idade</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Explicabo quos voluptatum possimus, esse perferendis
+            officia excepturi non facilis, eaque eos ullam quod?
+            Quas harum suscipit laborum fugiat praesentium autem minima!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Explicabo quos voluptatum possimus, esse perferendis
+            officia excepturi non facilis, eaque eos ullam quod?
+            Quas harum suscipit laborum fugiat praesentium autem minima!</p>
+        </div><!--content-->
+        <button class="btn">Saiba mais</button>
+      </div><!--cards-->
+    </div><!--caixa-->
+  </div><!--container-serviços-->
+  <!--FIM CARD / NOSSOS SERVIÇOS-->
+
+  <div class="me-contate">
+    <p>Contate minha equipe para que possamos juntos,...</p>
+    <button>Envie uma mensagem</button>
+  </div>
+
+  <footer>
+    <h6>Jorge Luís</h6>
+    <p>Lorem ipsum dolor sit amet consectetur,  Iusto qui quae<br> adipisicing elit. Iusto qui quae deserunt.</p>
+    <div class="redes-sociais">
+      <a href="#"> <i class="fab fa-facebook"></i></a>
+      <a href="#"> <i class="fab fa-instagram"></i></a>
+      <a href="#"> <i class="fab fa-facebook"></i></a>
+    </div><!--redes-sociais-->
+    <div class="end">
+      <p>&copy;2023 - by Jorge Luís S de Morais</p>
+    </div>
+  </footer>
 
 
 
-
-      <script src="main.js"></script>
+  <script src="main.js"></script>
 </body>
+
 </html>
