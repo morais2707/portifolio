@@ -12,41 +12,57 @@
 <body>
 
 
-      <div class="background">
+      <div class="background-header-main">
 
         <header>
-        <nav>
-            <h2>Portifó<span>lio</span></h2>
-            <ul class="cabecalho-link">
-                <li><a href="#">Início</a></li>
-                <li><a href="#suave">Sobre mim</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Habilidades</a></li>
-                <li><a href="https://api.whatsapp.com/send?phone=5586995881666&text=Ol%C3%A1,%20tudo%20bem!%0ASeja%20bem-vindo,%20deixe%20sua%20mensagem%20e%20assim%20que%20puder%20responderei." target="_blank">
-                  Contato</a></li>
-            </ul><!--cabecalho-link-->
-                <a href="#" class="btn" >Subscreve</a>
-        </nav>     
-      </header> 
+          <nav>
+              <h2>Portifó<span>lio</span></h2>
+              <ul class="cabecalho-link">
+                  <li><a href="#">Início</a></li>
+                  <li><a href="#suave">Sobre mim</a></li>
+                  <li><a href="#servicos">Serviços</a></li>
+                  <li><a href="#">Habilidades</a></li>
+                  <li><a href="https://api.whatsapp.com/send?phone=5586995881666&text=Ol%C3%A1,%20tudo%20bem!%0ASeja%20bem-vindo,%20deixe%20sua%20mensagem%20e%20assim%20que%20puder%20responderei." target="_blank">
+                    Contato</a></li>
+              </ul><!--cabecalho-link-->
+                  <a href="#" class="btn-nav" >Subscreve</a>
+          </nav>    
+
+        </header><!--header-->
+      
+
         
-      <div class="main">
-            <h4>Olá, meu nome é,</h4>
-            <h1>Jorge<span>Luís</span></h1>
-            <h3>analista sistema</h3>
-            <div class="container-btn">
-                <form>
+      <div class="container-main">
+
+        <div class="perfil">
+          <h4>Olá, meu nome é,</h4>
+          <h1>Jorge<span>Luís</span></h1>
+          <h3>analista sistema</h3>        
+              <form>
                   <input type="email" name="email" id="mail" placeholder="Envie seu e-mail">
                   <input type="submit" name="submit" value="Começar">
-                </form>
-            </div><!--Container-btn-->  
-        </div><!--Main-->
-      </div><!--background-->
+              </form><!--form-->
+        </div><!--perfil-->  
 
-      <section class="background-color-sobre">
+        <div class="img-main">
+            <img class="foto" src="img/0101-perfil.png" alt="">
+        </div><!--img-main-->
+
+      </div><!--container-main-->
+
+
+
+
+
+
+
+      </div><!--background-header-main-->
+
+      <section class="background-color-sobre" id="suave">
         <div class="main-sobre">
           <img src="img/jorge-removebg.png" alt="">
           <div class="text-sobre">
-            <h2 id="suave">Sobre Mim</h2>
+            <h2>Sobre Mim</h2>
             <h5>Eletrônico<span> & TI</span></h5>
             <p>Graduado em eletrônica pela escola técnica ferderal do Piauí- ETEFPI, também graduado em
                sistemas de informação, pós-graduado em gestão de segurança pública e privada e
@@ -58,7 +74,7 @@
 
 
       <!--INÍCIO CARD / NOSSOS SERVIÇOS-->
-      <div class="container-servicos">
+      <div class="container-servicos" id="servicos">
         <div class="title">
             <h2>Nossos Serviços</h2>
         </div>
