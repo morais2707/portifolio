@@ -7,6 +7,10 @@
 body{
   font-family: 'Josefin Sans', sans-serif;
 }
+html{
+  scroll-behavior: smooth;
+}
+
 
 
 /*Início | background-header-main */
@@ -81,11 +85,11 @@ nav ul li a:hover{
 
 /*Início continer-main*/
 .container-main{
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  flex-wrap: wrap;
-  width: 100%;  
+  flex-wrap: wrap;  
   padding: 120px 0px;
 }
 
@@ -98,7 +102,7 @@ nav ul li a:hover{
 .perfil h1{
   color: #fff;
   margin: 30px 0px 10px;
-  font-size: 80px;
+  font-size: 90px;
 }
 
 .perfil h1 span{
@@ -118,14 +122,13 @@ h3{
 }
 
 .container-main .form{
-  width: 380px;
   max-width: 100%;
   position: relative;
 }
 
 .container-main .form input:first-child{
   display: inline-block;
-  width: 100%;
+  width: 80%;
   padding: 14px 130px 14px 15px;
   border-radius: 30px;
   outline: none;
@@ -142,7 +145,7 @@ h3{
   background-color: #f9004d;
   color: #fff;
   box-shadow: 0px 0px 15px #858585;
-  left: 400px;
+  left: 85%;
   top: 4px;
   cursor: pointer;
 }
@@ -192,18 +195,17 @@ h3{
   text-align: justify;
 }
 
-button{
+.btn-sobre{
   background-color: #f9004d;
-  text-transform: none;
   color: #fff;
   padding: 13px 20px;
   border: solid 1px transparent;
   border-radius: 30px;
   font-weight: bold;
-  transition: .2s;
+  transition: 2s;
 }
 
-button:hover{
+.btn-sobre:hover{
   background-color:transparent;
   border: 1px solid #f9004d;
   color:#f9004d;
@@ -240,6 +242,7 @@ button:hover{
 .cards{
   background-color: #191919;
   width: 40%;
+  height: 600px;
   border: 20px;
   border-radius: 20px;
   margin: 10px;
@@ -250,6 +253,10 @@ button:hover{
   /*box-shadow: 5px 5px 8px rgba(249, 0, 77, 0.250);*/
   box-shadow: 5px 5px 8px rgba(255, 255, 255, 0.250);
   position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .cards::before{
@@ -285,14 +292,20 @@ button:hover{
   padding: 0px 20px;
 }
 
-.btn{
+.btn-servicos{
   border: none;
-  transition: .5s;
+  transition: 2s;
   letter-spacing: 2px;
   box-shadow: 4px 4px 8px rgba(255, 255, 255, 0.250);
+  background-color: #f9004d;
+  color: #fff;
+  padding: 10px 20px;
+  border: solid 1px transparent;
+  border-radius: 30px;
+  font-weight: bold;
 }
 
-.btn:hover{
+.btn-servicos:hover{
   background-color: transparent;
   border: solid 1px #f9004d;
   transform: scale(1.1);
@@ -376,6 +389,7 @@ footer p{
 
 
 @media screen and (max-width: 768px){
+
   .container-servicos{
     width: 100%;
     align-items: center;
@@ -391,10 +405,24 @@ footer p{
     position: relative;
   }
 
+  .container-main{
+   width: 100%;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   color: yellow;
+
+  }
+
   .background-color-sobre{
     width: 100%;
     align-items: center;
     flex-direction: column;
+    text-align: center;
+  }
+
+  .me-contate{
     text-align: center;
   }
   
