@@ -375,3 +375,28 @@ footer p{
 }
 
 
+@media screen and (max-width: 768px){
+  .container-servicos{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height:auto;
+  }
+
+  header nav{
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+  }
+
+  .background-color-sobre{
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+}
+
