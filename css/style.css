@@ -289,7 +289,7 @@ h3{
   font-size: 16px;
   line-height: 27px;
   margin-bottom: 25px;
-  padding: 0px 20px;
+  padding: 0px 45px;
 }
 
 .btn-servicos{
@@ -315,6 +315,7 @@ h3{
 /*Fim container/ Serviços*/
 
 
+/*Início/ Contato*/
 .me-contate{
   width: 100%;
   height: 240px;
@@ -332,6 +333,29 @@ h3{
   font-weight: bold;
 }
 
+.btn-contate{
+  background-color: #f9004d;
+  color: #fff;
+  padding: 13px 20px;
+  border: solid 1px transparent;
+  /*box-shadow: 5px 5px 8px rgba(249, 0, 77, 0.250);*/
+  box-shadow: 4px 4px 8px rgba(255, 255, 255, 0.250);
+  border-radius: 30px;
+  font-weight: 400;
+  transition: 2s;
+}
+
+.btn-contate:hover{
+  background-color: transparent;
+  border: solid 1px #f9004d;
+  transform: scale(1.0);
+  color: #ffffff;
+  letter-spacing: 3px;
+}
+/*Fim/ Contato*/
+
+
+/*Início/ Foooter*/
 footer{
   background-color: #101010;
   width: 100%;
@@ -361,7 +385,7 @@ footer p{
 }
 
 .redes-sociais a{
-  background-color: #f9004d;
+  background-color: #f0f0f0;
   padding: 15px;
   width: 40px;
   height: 40px;
@@ -381,11 +405,28 @@ footer p{
   transform: scale(1.2);
 }
 
+.redes-sociais .fa-whatsapp{
+  color: #34af23;
+}
+
+.redes-sociais .fa-instagram{
+  color: #C13584
+}
+
+.redes-sociais .fa-facebook{
+  color: #3b5998;
+}
+
+
 .end p{
   color: #f9004d;
   font-size: 20px;
   margin-top: 30px;
 }
+/*Fim/ Foooter*/
+
+
+
 
 
 @media screen and (max-width: 768px){
