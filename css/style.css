@@ -119,6 +119,7 @@ h3{
 .img-main .foto{
   border-radius: 50%;
   box-shadow: 10px 10px 15px #f9004f50;
+  filter: opacity(70%);
 }
 
 .container-main .form{
@@ -415,6 +416,10 @@ footer p{
 
 .redes-sociais .fa-facebook{
   color: #3b5998;
+}
+
+.redes-sociais .fa-linkedin{
+  color: #007bb6;
 }
 
 
