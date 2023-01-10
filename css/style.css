@@ -10,7 +10,7 @@ body{
 html{
   scroll-behavior: smooth;
 }
-
+/*Fim | Resets*/
 
 
 /*Início | background-header-main */
@@ -120,6 +120,20 @@ h3{
   border-radius: 50%;
   box-shadow: 10px 10px 15px #f9004f50;
   filter: opacity(70%);
+  transform: translateY(0px);
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float{
+  0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(-35px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
 }
 
 .container-main .form{
@@ -165,7 +179,9 @@ h3{
 .dv-img .img-sobre{
   width: 60%;
   border-radius: 50%;
-  margin-left:10%;
+  margin-left:10%;transform: translateY(0px);
+  animation: float 4s ease-in-out infinite;
+
 }
 
 .text-sobre{
