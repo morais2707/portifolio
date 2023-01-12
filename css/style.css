@@ -504,6 +504,18 @@ footer p{
 
 @media screen and (max-width: 768px){
 
+
+  .background-color-sobre{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 0;
+  }
+
+
+
   .title-servicos h2{
     text-align: center;
   }
