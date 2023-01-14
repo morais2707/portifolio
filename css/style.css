@@ -146,7 +146,7 @@ h3{
     transform: translateY(0px);
   }
   50%{
-    transform: translateY(-35px);
+    transform: translateY(-25px);
   }
   100%{
     transform: translateY(0px);
@@ -190,28 +190,35 @@ h3{
   background-color: #191919;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 100%;
   padding: 120px 0px;
+}
+.dv-img{
+  padding-left: 70px;
+  width: 50%;
+
+}
+.text-sobre{
+  padding-right: 70px;
+  width: 50%;
 }
 
 .dv-img .img-sobre{
-  width: 60%;
+  height: 20rem;
   border-radius: 50%;
   margin-left:10%;transform: translateY(0px);
   animation: float 4s ease-in-out infinite;
 
 }
 
-.text-sobre{
-  margin-right: 10%;
-}
 
 .text-sobre h2{
   color: #fff;
-  font-size: 75px;
+  font-size: 6rem;
   text-transform: capitalize;
   margin-bottom: 20px;
 }
-
 .text-sobre h5{
   color: #fff;
   letter-spacing: 2px;
@@ -219,16 +226,15 @@ h3{
   margin-bottom: 20px;
   text-transform: capitalize;
 }
-
 .text-sobre p{
   color: #fcfcfc;
   letter-spacing: 1px;
   line-height: 28px;
   font-size: 18px;
-  margin-bottom: 45px;
+  margin-bottom: 40px;
   text-align: justify;
+  
 }
-
 .btn-sobre{
   background-color: #f9004d;
   color: #fff;
@@ -249,7 +255,7 @@ h3{
 /*Fim container/ sobre mim*/
 
 
-/*Início container/ Serviços*/
+/*Início | container-card - Serviços*/
 main.container-card{
   display: flex;
   justify-content: center;
@@ -266,7 +272,7 @@ main.container-card{
   margin-bottom: 40px;
 }
 main .cards{
-  display: flex;
+  display: flex; 
   padding: 0px 50px;
 }
 section.card{
@@ -276,7 +282,7 @@ section.card{
   align-items: center;
   text-align: center;
   padding: 1rem 1.5rem;
-  max-height: 450px;
+  max-height: auto;
   margin-left: 30px;
   border-radius: 20px;
    /*box-shadow: 5px 5px 8px rgba(249, 0, 77, 0.250);*/
@@ -304,7 +310,8 @@ section p{
   margin-bottom: 16px;
   letter-spacing: 1px;
   font-weight: 100;
-  text-align: center;
+  text-align: justify;
+  line-height: 28px;
 }
 .btn-card{
   border: none;
@@ -327,61 +334,7 @@ section p{
   color: #f9004d;
   letter-spacing: 2px;
 }
-
-
-
-
-cards::before{
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  border: solid 25px transparent;
-  border-top: solid 25px #f9004d;
-  border-right: solid 25px #f9004d;
-}
-
-
-
-
-
-title h2{
-  color: #fff;
-  font-size: 75px;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-caixa{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
- 
-}
-
-card{
-  
-
-  
-  /*margin: 10px;*/
-  /*position: relative;*/
-  /*overflow: hidden;*/
-  /*text-align: center;*/
-  /*padding: 0px 0px 20px 0px;*/
- 
-}
-
-
-
-
-
-
-
-
-
-
-/*Fim container/ Serviços*/
+/*Fim | container-card - Serviços*/
 
 
 /*Início/ Contato*/
@@ -394,14 +347,12 @@ card{
   justify-content: center;
   align-items: center;
 }
-
 .me-contate p{
   color: #fff;
-  font-size: 30px;
+  font-size: 180%;
   margin-bottom: 25px;
   font-weight: bold;
 }
-
 .btn-contate{
   background-color: #f9004d;
   color: #fff;
@@ -413,7 +364,6 @@ card{
   font-weight: 400;
   transition: 2s;
 }
-
 .btn-contate:hover{
   background-color: transparent;
   border: solid 1px #f9004d;
@@ -434,12 +384,10 @@ footer{
   align-items: center;
   height: 400px;
 }
-
 footer h6{
   font-size: 35px;
   color: #fff;
 }
-
 footer p{
   color: #fff;
   font-size: 15px;
@@ -448,16 +396,14 @@ footer p{
   margin-bottom: 10px;
   line-height: 25px;
 }
-
 .redes-sociais{
   display: flex;
 }
-
 .redes-sociais a{
   background-color: #f0f0f0;
   padding: 15px;
-  width: 40px;
-  height: 40px;
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: 50px;
   color: #fff;
   font-size: 40px;
@@ -469,28 +415,21 @@ footer p{
   text-decoration: none;
   transition: 1s;
 }
-
 .redes-sociais a:hover{
   transform: scale(1.2);
 }
-
 .redes-sociais .fa-whatsapp{
   color: #34af23;
 }
-
 .redes-sociais .fa-instagram{
   color: #C13584
 }
-
 .redes-sociais .fa-facebook{
   color: #3b5998;
 }
-
 .redes-sociais .fa-linkedin{
   color: #007bb6;
 }
-
-
 .end p{
   color: #f9004d;
   font-size: 20px;
@@ -504,14 +443,37 @@ footer p{
 
 @media screen and (max-width: 768px){
 
+  header nav{
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+  }
+
+
 
   .background-color-sobre{
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
     text-align: center;
-    margin-left: 0;
+    justify-content: center;
+  }
+  .text-sobre{
+    padding-right: 0;
+    width: 80%;
+  }
+  .text-sobre h2{
+    font-size: 300%;
+  }
+  .dv-img{
+    padding: 0;
+    width: 80%;
+  }
+  .dv-img .img-sobre{
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;  
   }
 
 
@@ -530,7 +492,9 @@ footer p{
   section.card:last-child{
     margin-bottom: 0;
   }
-
+.me-contate{
+  text-align: center;
+}
 
   
 }

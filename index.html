@@ -1,154 +1,171 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <!--<script>alert("Página em construção!");</script>-->
+    <title>PORTIFÓLIO</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"/>
-  <link rel="stylesheet" href="css/style.css">
-  <!--<script>alert("Página em construção!");</script>-->
-  <title>PORTIFÓLIO</title>
-</head>
+  <body>
+    <!--INÍCIO CONTAINER / HEADER-->
+    <div class="background-header-main">
+      <header>
+        <nav>
+          <h2>Portifó<span>lio</span></h2>
+          <ul class="cabecalho-link">
+            <li><a href="#">Início</a></li>
+            <li><a href="#s">Sobre mim</a></li>
+            <li><a href="#servi">Serviços</a></li>
+            <li><a href="#">Habilidades</a></li>
+            <li>
+              <a href="https://linktr.ee/jorgeluis_santosmorais" target="_blank"
+                >Contato</a
+              >
+            </li>
+          </ul>
+          <!--cabecalho-link-->
+          <a href="#" class="btn-nav">Subscreve</a>
+        </nav>
+      </header>
+      <!--header-->
+      <!--FIM CONTAINER / HEADER-->
 
-<body>
-
-  <!--INÍCIO CONTAINER / HEADER-->
-  <div class="background-header-main">
-
-    <header>
-      <nav>
-        <h2>Portifó<span>lio</span></h2>
-        <ul class="cabecalho-link">
-          <li><a href="#">Início</a></li>
-          <li><a href="#suave">Sobre mim</a></li>
-          <li><a href="#servicos">Serviços</a></li>
-          <li><a href="#">Habilidades</a></li>
-          <li><a href="https://linktr.ee/jorgeluis_santosmorais" target="_blank">Contato</a></li>
-        </ul><!--cabecalho-link-->
-        <a href="#" class="btn-nav">Subscreve</a>
-      </nav>
-
-    </header><!--header-->
-    <!--FIM CONTAINER / HEADER-->
-
-
-    <!--INÍCIO CONTAINER / MAIN-->
-    <div class="container-main">
-
-      <div class="perfil">
-        <h4>Olá, meu nome é,</h4>
-        <h1>Jorge<span>Luís</span></h1>
-        <h3>analista de sistema</h3>
-        <form class="form">
-          <input type="email" name="email" id="mail" placeholder="Envie seu e-mail">
-          <input type="submit" name="submit" value="Começar">
-        </form><!--form-->
-      </div><!--perfil-->
-
-      <div class="img-main">
-        <img class="foto" src="img/0101-perfil.png" alt="">
-      </div><!--img-main-->
-
-    </div><!--container-main-->
-    <!--FIM CONTAINER / MAIN-->
-
-  </div><!--background-header-main-->
-
-
-  <!--INÍCIO CONTAINER / SOBRE MIM-->
-  <div class="background-color-sobre" id="suave">
-
-    <div class="dv-img">
-      <img class="img-sobre" src="img/jorge-removebg.png" alt="">
-    </div><!--dv-img-->
-
-    <div class="text-sobre">
-      <h2>Sobre Mim</h2>
-      <h5>Eletrônico<span> & TI</span></h5>
-      <p>Graduado em eletrônica pela escola técnica federal do Piauí-ETEFPI, também graduado em
-         sistemas de informação, pós-graduando em gestão de segurança privada e Docência do ensino superior.</p>
-      <a class="btn-sobre" href="https://linktr.ee/jorgeluis_santosmorais" target="_blank">Vamos converçar</a>
-    </div><!--text-sobre-->
-
-  </div><!--background-color-sobre-->
-  <!--FIM CONTAINER / SOBRE MIM-->
-
-
-  <!--INÍCIO CARD / NOSSOS SERVIÇOS-->
-  
-  <main class="container-card">
-
-    <div class="title-servicos">
-      <h2>Nossos Serviços</h2>
-    </div>
-          
-       
-      <div class="cards">
-
-       
-          <section class="card">
-            <div class="icon">
-              <i class="fa fa-laptop"></i>
-            </div>
-            <h5>Reparo em Notebok</h5>
-            <p>Especialista em reparo eletrônico de placas de notebooks...</p>
-          <button class="btn-card">Saiba mais</button>
-          </section>
-
-          <section class="card">
-            <div class="icon">
-              <i class="fa fa-camera"></i>
-            </div>
-            <h5>Segurança Eletrônica</h5>
-            <p>Instalação de circuito de câmeras-CFTV, alarmes convencionais ou monitorado, cerca elétrica, concertinas, automação
-              residencial, automático para portões deslizantes ...</p>
-          <button class="btn-card">Saiba mais</button>
-          </section>
-
-          <section class="card">
-            <div class="icon">
-              <i class="fa fa-camera"></i>
-            </div>
-            <h5>Consultoria</h5>
-            <p>Especialista em reparo eletrônico de placas de notebooks, o sucesso do reparo é totalmente em</p>
-          <button class="btn-card">Saiba mais</button>
-          </section>
-
+      <!--INÍCIO CONTAINER / MAIN-->
+      <div class="container-main">
+        <div class="perfil">
+          <h4>Olá, meu nome é,</h4>
+          <h1>Jorge<span>Luís</span></h1>
+          <h3>analista de sistema</h3>
+          <form class="form">
+            <input
+              type="email"
+              name="email"
+              id="mail"
+              placeholder="Envie seu e-mail"
+            />
+            <input type="submit" name="submit" value="Começar" />
+          </form>
+          <!--form-->
         </div>
+        <!--perfil-->
 
-    </main><!--container-serviços-->
-  <!--FIM CARD / NOSSOS SERVIÇOS-->
-
-
-
-
-
-
-  <div class="me-contate">
-    <p>Contate minha equipe para que possamos juntos,...</p>
-    <a class="btn-contate" href="#">Envie uma mensagem</a>
-  </div>
-
-  <footer>
-    <h6>Jorge Luís</h6>
-    <p>Lorem ipsum dolor sit amet consectetur, Iusto qui quae<br> adipisicing elit. Iusto qui quae deserunt.</p>
-    <div class="redes-sociais">
-      <a href="#"> <i class="fab fa-facebook"></i></a>
-      <a href="#"> <i class="fab fa-instagram"></i></a>
-      <a href="#"> <i class="fab fa-whatsapp"></i></a>
-      <a href="https://www.linkedin.com/in/jorge-lu%C3%ADs-63a3b717a/" target="_blank"> <i class="fab fa-linkedin"></i></a>
-    </div><!--redes-sociais-->
-    <div class="end">
-      <p>&copy;2023 - by Jorge Luís S de Morais</p>
+        <div class="img-main">
+          <img class="foto" src="img/0101-perfil.png" alt="" />
+        </div>
+        <!--img-main-->
+      </div>
+      <!--container-main-->
+      <!--FIM CONTAINER / MAIN-->
     </div>
-  </footer>
+    <!--background-header-main-->
+
+    <!--INÍCIO CONTAINER / SOBRE MIM-->
+    <div class="background-color-sobre" id="s">
+
+      <div class="dv-img">
+          <img class="img-sobre" src="img/jorge-removebg.png" alt=""/>
+      </div>
+      <!--dv-img-->
+
+      <div class="text-sobre">
+        <h2>Sobre Mim</h2>
+        <h5>Eletrônico<span> & TI</span></h5>
+        <p>Graduado em eletrônica pela escola técnica federal do Piauí-ETEFPI, também graduado em sistemas
+           de informação, pós-graduando em gestão de segurança privada e Docência do ensino superior.</p>
+        <button class="btn-sobre">Vamos converçar</button>
+      </div>
+      <!--text-sobre-->
+    </div>
+    <!--background-color-sobre-->
+    <!--FIM CONTAINER / SOBRE MIM-->
 
 
 
-  <script src="main.js"></script>
-</body>
+    <!--INÍCIO CARD / SERVIÇOS-->
+    <main class="container-card" id="servi">
 
+      <div class="title-servicos">
+        <h2>Nossos Serviços</h2>
+      </div>
+
+      <div class="cards">
+        <section class="card">
+          <div class="icon">
+              <i class="fa fa-laptop"></i>
+          </div>
+          <h5>Reparo em Notebook</h5>
+          <p>Especialista em reparo eletrônico de placas de notebooks e macbook, o sucesso em 95% de acertos é aliado
+            ao conehcimento e não achismo, uso de ferramentas especificas, equipamentos de última geração para aferições
+            e testes em bancada e em especial, o conhecimento em engenharia de esquema elétrico.</p>
+          <button class="btn-card">Saiba mais</button>
+        </section><!--card-->
+
+        <section class="card">
+          <div class="icon">
+              <i class="fa fa-camera"></i>
+          </div>
+          <h5>Segurança Eletrônica</h5>
+          <p>Instalação de circuito fechado de câmeras-CFTV, alarmes convencionais ou monitorado, cerca elétrica,
+            concertinas, automação residencial, automático para portões deslizantes, infraestrutura, terceirização, ronda
+            noturo, vigilancia fixa e consultoria em segurança.</p>
+          <button class="btn-card">Saiba mais</button>
+        </section><!--card-->
+
+        <section class="card">
+          <div class="icon">
+              <i class="fa fa-camera"></i>
+          </div>
+          <h5>Consultoria</h5>
+          <p>Serviços como: auditoria interna na preveção de perdas e avarias de produtos, segurança particular, teinamento
+            aos colaboradores e proproetário, conceitos e analises de riscos.
+          </p>
+          <button class="btn-card">Saiba mais</button>
+        </section><!--card-->
+
+      </div><!--cards-->
+    </main><!--container-card-->
+    <!--FIM CARD / SERVIÇOS-->
+
+
+
+    <div class="me-contate">
+      <p>Contate minha equipe para que possamos juntos,...</p>
+      <a class="btn-contate" href="#">Envie uma mensagem</a>
+    </div>
+
+    <footer>
+      <h6>Jorge Luís</h6>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, Iusto qui quae<br />
+        adipisicing elit. Iusto qui quae deserunt.
+      </p>
+      <div class="redes-sociais">
+        <a href="#"> <i class="fab fa-facebook"></i></a>
+        <a href="#"> <i class="fab fa-instagram"></i></a>
+        <a href="#"> <i class="fab fa-whatsapp"></i></a>
+        <a
+          href="https://www.linkedin.com/in/jorge-lu%C3%ADs-63a3b717a/"
+          target="_blank"
+        >
+          <i class="fab fa-linkedin"></i
+        ></a>
+      </div>
+      <!--redes-sociais-->
+      <div class="end">
+        <p>&copy;2023 - by Jorge Luís S de Morais</p>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
 </html>
