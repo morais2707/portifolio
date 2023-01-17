@@ -446,12 +446,10 @@ footer p{
 @media screen and (max-width: 768px){
 
   .menu{
-    background-color: #34af23;
     padding: 0;
     padding-top: 20px;
   }
   ul.cabecalho-link{
-    background-color: #007bb6;
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
