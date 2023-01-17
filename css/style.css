@@ -445,14 +445,25 @@ footer p{
 
 @media screen and (max-width: 768px){
 
-  header nav{
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-    width: 100%;
-    position: relative;
+  .menu{
+    background-color: #34af23;
+    padding: 0;
+    padding-top: 20px;
   }
+  ul.cabecalho-link{
+    background-color: #007bb6;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    padding:20px;
+    font-size: 100%;
+  }
+/************************/
 
+
+
+
+/************************/
   .container-main{
     justify-content: center;
     text-align: center;
@@ -464,21 +475,21 @@ footer p{
   .perfil h1{
     font-size: 300%;
   }
+  .perfil form{
+    padding: 0px 20px;
+  }
   .container-main form input:last-child{
-    background-color: #007bb6;
-    left: 74%;
-    position: absolute;
+    left: 64%;
   }
   .img-main{
-    padding: 0;
+    padding: 30px 30px 0px 30px;
   }
+/************************/
 
 
 
 
-
-
-
+/************************/
   .background-color-sobre{
     flex-direction: column;
     text-align: center;
@@ -501,13 +512,16 @@ footer p{
     width: 100%;
     margin: 0 auto;  
   }
+/************************/
 
 
 
+
+/************************/
   .title-servicos h2{
     text-align: center;
+    font-size: 300%;
   }
-
   .cards{
     flex-direction: column;
   }
@@ -520,8 +534,9 @@ footer p{
   }
 .me-contate{
   text-align: center;
+  font-size: 90%;
 }
-
+/************************/
   
 }
 
