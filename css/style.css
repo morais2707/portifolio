@@ -312,7 +312,7 @@ section p{
   margin-bottom: 16px;
   letter-spacing: 1px;
   font-weight: 100;
-  text-align: justify;
+  text-align: center;
   line-height: 28px;
 }
 .btn-card{
@@ -447,14 +447,22 @@ footer p{
 
   .menu{
     padding: 0;
-    padding-top: 20px;
   }
   ul.cabecalho-link{
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
-    padding:20px;
     font-size: 100%;
+    padding: 0;
+  }
+  .menu ul li{
+    width: 50%;
+    justify-content: center;
+  }
+  a.btn-nav{
+    margin-top: 20px;
+  }
+  .menu ul li a{
   }
 /************************/
 
@@ -465,6 +473,7 @@ footer p{
   .container-main{
     justify-content: center;
     text-align: center;
+    padding-top: 350px;
   }
   .perfil{
     padding:0;
